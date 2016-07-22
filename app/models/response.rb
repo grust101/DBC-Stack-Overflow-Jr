@@ -3,8 +3,6 @@ class Response < ActiveRecord::Base
 
 	belongs_to :respondable, :polymorphic => true
 	
-	belongs_to :users, through: :questions 
-	belongs_to :users, through: :answers
 	
 	belongs_to :users
   # Remember to create a migration!
