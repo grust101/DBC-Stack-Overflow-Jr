@@ -1,3 +1,3 @@
-get '/sessions' do
+get '/' do
   erb :index
 end
